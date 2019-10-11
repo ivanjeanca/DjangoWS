@@ -2,7 +2,7 @@
 
 ## Crear migraciones
 
-    python manage.py makemigrations
+    python manage.py makemigrations API
 
 
 ## Migrar
