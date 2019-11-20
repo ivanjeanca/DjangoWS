@@ -18,7 +18,7 @@ urlpatterns = [
     url(r'^api/productoareacliente/$', views.ProductoAreaClienteList.as_view()),
     url(r'^api/productoareacliente/(?P<pk>[0-9]+)/$', views.ProductoAreaClienteDetail.as_view()),
     url(r'^api/detallepedido/$', views.DetallePedidoList.as_view()),
-    url(r'^api/detallepedido/(?P<pk>[0-9]+)/$', views.DetallePedidoDetail.as_view()),
+    url(r'^api/detallepedido/(?P<pk>[0-9]+)/$', views.DetallePedidoDetail.as_view()), 
 ]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+urlpatterns = format_suffix_patterns(urlpatterns) 
